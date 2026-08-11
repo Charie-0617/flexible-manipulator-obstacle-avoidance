@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Build / package artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated outputs
+planning_results/
+results/
+comparison_results/
+*.npy
+*.npz
+*.csv
+
+# Paper / draft artifacts
+*.docx
+*.pdf
+*.svg
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
